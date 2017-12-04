@@ -62,4 +62,8 @@ int main(){
 	    infile.open(FileName);
   
       ReadFile(FileName, F[i]);
+	
+	cudaDeviceSynchronize();
+	
+	return 0;
 }
